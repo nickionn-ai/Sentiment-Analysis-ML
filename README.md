@@ -16,6 +16,16 @@ The workflow includes:
 
 ---
 
+## 📊 Results
+
+- Accuracy: ~86%
+- Model: Logistic Regression with TF-IDF
+- Dataset: IMDB Reviews
+
+The model performs well with relatively low misclassification.
+
+---
+
 ## ⚙️ Technologies Used
 
 - Python
@@ -93,12 +103,15 @@ Example:
 
 ## 🧪 Example Usage
 
-```python
+python
 predict_sentiment("This movie was amazing, I loved it!")
 # Output: Positive
 
 predict_sentiment("Worst movie ever")
 # Output: Negative
+
+---
+
 ## 🚀 Future Improvements
 
 - Use advanced models such as LSTM or BERT
@@ -110,13 +123,19 @@ predict_sentiment("Worst movie ever")
 
 ## 📂 Project Structure
 
-```text
+text
 Sentiment-Analysis-ML/
 │
 ├── Sentiment-Analysis-ML.ipynb
 ├── requirements.txt
 ├── LICENSE
 └── README.md
+
+---
+
+## 📊 Results Visualization
+
+![Confusion Matrix](confusion_matrix.png)
 ## 📜 License
 
 This project is licensed under the MIT License.
@@ -126,6 +145,7 @@ This project is licensed under the MIT License.
 ## 👨‍💻 Author
 
 Nikolaos Ioannidis
-## 📊 Results Visualization
 
-![Confusion Matrix](confusion_matrix.png)
+
+
+
