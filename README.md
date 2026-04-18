@@ -126,3 +126,6 @@ This project is licensed under the MIT License.
 ## 👨‍💻 Author
 
 Nikolaos Ioannidis
+## 📊 Results Visualization
+
+![Confusion Matrix](confusion_matrix.png)
